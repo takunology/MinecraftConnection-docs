@@ -1,3 +1,9 @@
+---
+title: "MinecraftConnection 概要"
+date: "2022/08/17"
+author: "Takunology"
+---
+
 # MinecraftConnection
 <div>
 <img src="https://raw.githubusercontent.com/takunology/MinecraftConnection/main/images/logo.png" width="300" hspace="0" vspace="10">
