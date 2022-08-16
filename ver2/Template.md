@@ -41,4 +41,6 @@ namespace ConsoleApp
 }
 ```
 
-画像は各階層の `media` へ保存しておいてください.
+画像は各階層の `media` へ保存しておいてください. また、保存形式を `webp` にしておくとかなり圧縮できるのでオススメ。gif もいけるみたい。
+
+https://squoosh.app/

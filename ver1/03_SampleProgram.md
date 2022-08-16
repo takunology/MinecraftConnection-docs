@@ -73,3 +73,4 @@ namespace ExampleApp
 
 Minecraft 1.16.3 での実行結果です。
 
+<img src="https://raw.githubusercontent.com/takunology/MinecraftConnection/1.X.X/images/fireworks_sample.png" class="img-fluid my-3" />
