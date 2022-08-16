@@ -12,7 +12,7 @@ author: "Takunology"
 メンバ変数
 
 |変数名|型|説明|
-|--|--|--|
+|---|---|---|
 |X|double|x 方向|
 |Y|double|y 方向|
 |Z|double|z 方向|
@@ -20,7 +20,7 @@ author: "Takunology"
 コンストラクタ
 
 |引数|型|説明|
-|--|--|--|
+|---|---|---|
 |X|double|x 方向|
 |Y|double|y 方向|
 |Z|double|z 方向|
@@ -51,14 +51,15 @@ commands.SendCommand($"data modify entity <entityID> Motion[1] set value {mot3.Y
 ![](https://raw.githubusercontent.com/takunology/MinecraftConnection-docs/main/ver2/Struct/media/Motion_01.gif)
 
 # 素朴な疑問
-## Q. 最大値と最小値は？
+
+**Q. 最大値と最小値は？**
 
 各方向ともに最小値が -10.0 で最大値が 10.0 です. ちなみに 1.0 でもそれなりの速度がでます.
 
-## Q. それぞれの方向は何を表しているの？
+**Q. それぞれの方向は何を表しているの**
 
 座標と同じく, x 方向は東西方向, y 方向は高さ方向, z 方向は南北方向を表しています. x 方向はプラス側が東でマイナス側が西です. z 座標はプラス側が南でマイナス側が北です. 
 
-## Q. プレイヤー以外にも使えるの？
+**Q. プレイヤー以外にも使えるの？**
 
 動きのデータを持つエンティティであれば使えます. 例えば, モンスターやトロッコ, 矢にも使えます. `data get` コマンドを実行してみて, `Motion` という項目が出てくるかどうかで使えるかどうかを判断できます.
