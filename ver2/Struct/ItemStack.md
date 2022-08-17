@@ -11,11 +11,11 @@ author: "Takunology"
 
 メンバ変数
 
-| 変数名 | 型 | 説明 |
-| :---: | :---: | :---: |
-| Slot | ushort | アイテムスロットの番号 |
-| Id | string | アイテムID（アイテム名） |
-| Count | ushort | アイテムの数量 |
+|変数名|型|説明|
+|---|---|---|
+|Slot| ushort |アイテムスロットの番号|
+|Id|string|アイテムID（アイテム名）|
+|Count|ushort|アイテムの数量|
 
 コンストラクタ
 
@@ -56,8 +56,8 @@ commands.SetChestItems(chestPos, myItem);
 
 ![](https://raw.githubusercontent.com/takunology/MinecraftConnection-docs/main/ver2/Struct/media/ItemStack_01.webp)
 
-
 # 素朴な疑問
+
 **Q. アイテムは何個まで？**
 
 1つにつき64個までですが, 一部のアイテム（雪玉やエンダーパール）は16個です.
