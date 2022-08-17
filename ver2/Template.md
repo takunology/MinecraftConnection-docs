@@ -15,7 +15,7 @@ author: "編集者A, 編集者B, 編集者C ..."
 リンクは自由に貼ってOK.
 
 Note は下記テンプレートをコピーしてください.
-
+```html
 <div class="alert alert-info" role="alert">
     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 20 20">
         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
@@ -23,9 +23,15 @@ Note は下記テンプレートをコピーしてください.
     </svg>
     文章はこちらへ
 </div>
+```
 
-サンプルコード
+**表を書く**
+|ヘッダ1|ヘッダ2|ヘッダ3|
+|---|---|---|
+|01|要素A|説明A|
+|02|要素B|説明B|
 
+**サンプルコード**
 ```cs:Program.cs
 using MinecraftConnection;
 namespace ConsoleApp
@@ -41,6 +47,6 @@ namespace ConsoleApp
 }
 ```
 
-画像は各階層の `media` へ保存しておいてください. また、保存形式を `webp` にしておくとかなり圧縮できるのでオススメ。gif もいけるみたい。
+画像は各階層の `media` へ保存しておいてください. また、保存形式を `webp` にしておくとかなり圧縮できるのでオススメ。
 
 https://squoosh.app/
