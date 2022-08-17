@@ -26,12 +26,14 @@ Note は下記テンプレートをコピーしてください.
 ```
 
 **表を書く**
+
 |ヘッダ1|ヘッダ2|ヘッダ3|
 |---|---|---|
 |01|要素A|説明A|
 |02|要素B|説明B|
 
 **サンプルコード**
+
 ```cs:Program.cs
 using MinecraftConnection;
 namespace ConsoleApp

@@ -10,6 +10,7 @@ author: "Takunology"
 絶対座標を扱います. 
 
 **メンバ変数**
+
 |変数名|型|説明|
 |---|---|---|
 |X|double|x 座標|
@@ -17,6 +18,7 @@ author: "Takunology"
 |Z|double|z 座標|
 
 **コンストラクタ**
+
 |引数|型|説明|
 |---|---|---|
 |x|double|x 座標|
