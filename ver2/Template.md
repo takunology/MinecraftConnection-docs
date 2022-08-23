@@ -12,6 +12,8 @@ author: "編集者A, 編集者B, 編集者C ..."
 
 画像を配置する場合は `raw.githubusercontent.com` を経由すること. 相対パスでは正しく読み込まれません.
 
+`https://raw.githubusercontent.com/takunology/MinecraftConnection-docs/main/ver2/<dir>/<file>.webp`
+
 リンクは自由に貼ってOK.
 
 Note は下記テンプレートをコピーしてください.
