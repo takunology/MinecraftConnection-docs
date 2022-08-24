@@ -1,6 +1,6 @@
 ---
 title: "MinecraftConnection 概要"
-date: "2022/08/17"
+date: "2022/08/24"
 author: "Takunology"
 ---
 
@@ -32,14 +32,11 @@ enable-rcon=true
 # 2. プロジェクト作成
 本ライブラリは `.NET Standard 2.1` 以上が対象となっています。ここでは、.NET 6 コンソールアプリケーションを用いて作成します。
 
-NuGet パッケージマネージャにて `MinecraftConnection` をインストールするか、パッケージマネージャコンソールにて次のコマンドを実行します。
+NuGet パッケージマネージャにて `MinecraftConnection` をインストールするか、パッケージマネージャコンソールにて次のコマンドを実行します。その他のバージョンに関しては [NuGet](https://www.nuget.org/packages/MinecraftConnection) にてご確認ください。
 
 ```
 Install-Package MinecraftConnection
 ```
-詳細 : [https://www.nuget.org/packages/MinecraftConnection](https://www.nuget.org/packages/MinecraftConnection)
-
-</br>
 
 導入はこれで完了です. 次のセクションのサンプルコードを参考に試してみてください。
 
@@ -88,11 +85,9 @@ command.SetOffFireworks(pos, fireworks);
 ```
 実行結果
 
-<img src="https://raw.githubusercontent.com/takunology/MinecraftConnection/main/images/fireworks_sample.png" width="550" hspace="0" vspace="10">
+![](https://raw.githubusercontent.com/takunology/MinecraftConnection/main/images/fireworks_sample.png)
 
-工夫次第で様々な花火を打ち上げることができます。試してみたい方は下記を参考にしてください。
-
-[https://zenn.dev/takunology/scraps/9462b03d13dd0a](https://zenn.dev/takunology/scraps/9462b03d13dd0a)
+工夫次第で様々な花火を打ち上げることができます。試してみたい方は[こちら](https://zenn.dev/takunology/scraps/9462b03d13dd0a)を参考にしてください。
 
 # 4. 注意事項
 RCONの遠隔操作によってサーバを停止させる危険性があるため、`stop` コマンドは使用出来ないようになっています。`SendCommand` メソッドで `stop` コマンドを実行使用とすると例外が発生し、プログラムが止まるようになっています。
