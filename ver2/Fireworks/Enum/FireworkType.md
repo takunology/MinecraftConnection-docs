@@ -21,7 +21,7 @@ author: "Takunology"
 
 使い方は[Fireworks クラス](https://www.mcwithcode.com/Reference/GitHubDocument?version=ver2&path=Fireworks&fileName=Fireworks)を参照してください. 花火の形を定義して, 花火のインスタンスを作成するときに使用します.
 
-# 花火の色
+# 花火の形
 花火の形の例です.
 
 ![](https://raw.githubusercontent.com/takunology/MinecraftConnection-docs/main/ver2/Fireworks/Enum/media/FireworkType_01.webp)
