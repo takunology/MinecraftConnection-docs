@@ -68,7 +68,7 @@ Fireworks fw3 = new Fireworks()
 };
 
 // 打ち上がるエフェクトだけを表示する花火を作る
-Fireworks fw3 = new Fireworks()
+Fireworks fw4 = new Fireworks()
 {
     LifeTime = 40,
     IsEmpty = true

@@ -11,7 +11,7 @@ author: "Takunology"
 
 ## フィールド
 
-|名称|値|色|
+|名称|値|形|
 |--|--|--|
 |SmallBall|0|小玉|
 |LargeBall|1|大玉|
