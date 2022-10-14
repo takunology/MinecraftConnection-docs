@@ -19,7 +19,7 @@ author: "Takunology"
 |--|--|--|
 |OnGround|bool|プレイヤーが地面についているかどうかの有無|
 |Air|short|プレイヤーが無呼吸でいられる時間 [tick]|
-|Fir|short|エンティティについた火が消えるまでの時間 [tick]|
+|Fire|short|エンティティについた火が消えるまでの時間 [tick]|
 |FallDistance|double|エンティティの落下した距離 [block]|
 |[Motion](https://www.mcwithcode.com/Reference/GitHubDocument?version=ver2&path=Struct&fileName=Motion)|Motion|プレイヤーの速度 (x, y, z)|
 |[Rotation](https://www.mcwithcode.com/Reference/GitHubDocument?version=ver2&path=Struct&fileName=Rotation)|Rotation|プレイヤーの向いている方角 (x, y)|
