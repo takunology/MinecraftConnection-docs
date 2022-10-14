@@ -68,4 +68,4 @@ Unknown or incomplete command, see below for error?give tak moneyAndTime10000000
 # 素朴な疑問
 
 **Q. 先頭に`/`（スラッシュ）つけなくていいの？**
-A. スラッシュはつけても、つけなくてもコマンドを実行することができます。
+スラッシュはつけても、つけなくてもコマンドを実行することができます。
