@@ -7,9 +7,9 @@ author: "Takunology"
 # 概要
 鉱石つかみゲームとは, チェストブロック内に出現する鉱石（鉄インゴット, 金インゴット, ダイヤモンド, エメラルドなど）をつかんで自分のインベントリに持ってくるゲームです. 
 
-![](https://raw.githubusercontent.com/takunology/MinecraftConnection-docs/main/ver2/idea/game/media/ore-grabbing-game.gif)
+![](https://raw.githubusercontent.com/takunology/MinecraftConnection-docs/main/ver2/Idea/game/media/ore-grabbing-game.gif)
 
-[Wait] メソッドを使用すれば, 鉱石が出現するスピードを調整する事ができます.
+[Wait]() メソッドを使用すれば, 鉱石が出現するスピードを調整する事ができます.
 
 # サンプルコード
 
