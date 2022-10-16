@@ -9,7 +9,7 @@ author: "Takunology"
 
 ![](https://raw.githubusercontent.com/takunology/MinecraftConnection-docs/main/ver2/Idea/game/media/ore-grabbing-game.gif)
 
-[Wait]() メソッドを使用すれば, 鉱石が出現するスピードを調整する事ができます.
+[Wait](https://www.mcwithcode.com/Reference/GitHubDocument?version=ver2&path=MinecraftCommands%2FMethod&fileName=Wait) メソッドを使用すれば, 鉱石が出現するスピードを調整する事ができます.
 
 # サンプルコード
 
