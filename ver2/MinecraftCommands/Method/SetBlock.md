@@ -63,7 +63,7 @@ for(int i = 0; i < 10; i++)
 実行すると青色のコンクリートが平面上に10×10の範囲で配置されます.
 
 
-![](https://raw.githubusercontent.com/takunology/MinecraftConnection-docs/main/ver2/MinecraftCommands/Method/media/SetBlock_01.webp)
+![](https://raw.githubusercontent.com/takunology/MinecraftConnection-docs/main/ver2/MinecraftCommands/Method/media/SetBlock_02.webp)
 
 配置したブロックを削除（空気ブロック）に置き換える場合は `air` を使います. 
 
