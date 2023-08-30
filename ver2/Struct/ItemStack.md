@@ -35,7 +35,7 @@ author: "Takunology"
 ItemStack item = new ItemStack(0, "diamond", 4);
 
 // 複数のアイテムを設定する
-ItemStack myItem = new List<ItemStack>
+List<ItemStack> myItem = new List<ItemStack>
 {
     new ItemStack(0, "diamond", 2),
     new ItemStack(1, "gold_ingot", 4),
